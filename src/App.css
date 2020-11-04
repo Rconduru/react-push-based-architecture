@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.panel {
+  margin: 8px auto;
+  padding: 8px;
+  background-color: whitesmoke;
+  width: 575px;
+  text-align: left;
+}
+
+.tag-container {
+  border-radius: 5px;
+  border: 1px solid #56504c;
+  padding: 16px 8px;
+  width: 575px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  margin: 5px 0px;
+  border-bottom: 1px solid #61dafb;
+}
