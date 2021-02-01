@@ -2,6 +2,14 @@
 
 PWA project for Saúde UP.
 
+## Features on Saúde UP App
+
+- Agendamento de Consulta;
+- Agendamento de Exames
+- Cadastor de Endereço;
+- Buscar Farmácias;
+- Comprar Recarga;
+
 ## What we got?
 
 - ReactJs (webcomponents and interfaces);
@@ -10,6 +18,7 @@ PWA project for Saúde UP.
 - Jest and Testing library (Tests);
 - MSWJs - Mock Service Worker (Mock for HTTP requests on test);
 - Json-server (Fake server with REST API);
+- Ant Design (Pre-builted Components. See more in [Ant Design Docs](https://ant.design/docs/react/introduce) and [Ant Design Components](https://ant.design/components/overview))
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and typescript template.
 
