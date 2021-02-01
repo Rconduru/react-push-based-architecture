@@ -1,6 +1,6 @@
-# React push based architecture
+# Saúde UP PWA
 
-This project was created to exemplified a front-end's push-based architecture.
+PWA project for Saúde UP.
 
 ## What we got?
 

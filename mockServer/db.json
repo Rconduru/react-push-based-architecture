@@ -39,6 +39,30 @@
       "text": "opaaa",
       "active": true,
       "id": 8
+    },
+    {
+      "text": "teste",
+      "active": true,
+      "id": 9
     }
-  ]
+  ],
+  "card": {
+    "id": "569081",
+    "number": "6064070217839718",
+    "validator": "455",
+    "way": "1",
+    "emitter": "606407",
+    "product": null,
+    "card_src": "https://s3-sa-east-1.amazonaws.com/qa.media.meutem/landing_pages_logos/1582060975.png",
+    "luckyTickets": [
+      {
+        "number": "407692",
+        "startDate": "2020-06-01",
+        "endDate": null,
+        "prize": 20000,
+        "status": true
+      }
+    ],
+    "extraLine": null
+  }
 }

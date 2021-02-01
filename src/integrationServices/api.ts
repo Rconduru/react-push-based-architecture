@@ -30,7 +30,7 @@ const get = (path: string) => axiosInstance(path)
  * @param {string} path
  * @param {Object} data
  */
-const post = (path: string, data: Object) =>
+const post = <T>(path: string, data: T) =>
   axiosInstance(path, { method: 'POST', data })
 
 /**
@@ -39,7 +39,7 @@ const post = (path: string, data: Object) =>
  * @param {string} path
  * @param {Object} data
  */
-const put = (path: string, data: Object) =>
+const put = <T>(path: string, data: T) =>
   axiosInstance(path, { method: 'PUT', data })
 
 /**
@@ -48,7 +48,7 @@ const put = (path: string, data: Object) =>
  * @param {string} path
  * @param {string} data
  */
-const patch = (path: string, data: string) =>
+const patch = <T>(path: string, data: T) =>
   axiosInstance(path, { method: 'PATCH', data })
 
 /**

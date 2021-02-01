@@ -5,7 +5,7 @@ import * as s from './styles'
 
 export default function App() {
   const [
-    { tags, isLoading },
+    { tags },
     tagEditor,
     setTagEditor,
     addTag,
@@ -46,9 +46,10 @@ export default function App() {
             label="Nova Tag"
             value={tagEditor.text}
             onChange={(event) =>
-              setTagEditor((prevState: object) => {
-                return { ...prevState, text: event.target.value }
-              })
+              setTagEditor((prevState: object) => ({
+                ...prevState,
+                text: event.target.value,
+              }))
             }
           ></Input>
           <div style={{ display: 'flex', justifyContent: 'flex-end' }}>

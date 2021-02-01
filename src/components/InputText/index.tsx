@@ -2,7 +2,7 @@ import * as React from 'react'
 import { ChangeEvent } from 'react'
 import * as s from './styles'
 
-export interface IInputProps {
+export interface InputPropsInterface {
   label?: string
   width: string
   value: string | number
@@ -13,10 +13,10 @@ export interface IInputProps {
  * Basic Input component
  *
  * @export
- * @param {IInputProps} props - { label?: string, width: string, value: string | number}
+ * @param {InputPropsInterface} props - { label?: string, width: string, value: string | number}
  * @return {*}
  */
-export default function Input(props: IInputProps) {
+export default function Input(props: InputPropsInterface) {
   const { width, onChange, label, value } = props
 
   return (
